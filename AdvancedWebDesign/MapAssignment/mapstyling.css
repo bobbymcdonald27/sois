@@ -1,0 +1,53 @@
+/* green and gold colors found @ http://teamcolors.arc90.com/ */
+
+body{
+    background: #FFCC00;
+}
+
+#map{
+	width: 500px;
+	height: 500px;
+	border: 5px solid #213D30;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    right: 50%;
+    border-radius: 15px;
+	}
+#pics{
+    height: 600px;
+    width: 45%;
+    background: gray;
+    position: absolute;
+    left: 40px;
+    top: 25px;
+    border-radius: 15px;
+    color: black;
+    padding-left: 15px;
+    padding-top: 15px;
+    border: 2px solid #213D30;
+}
+#icon{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    
+}
+#aerial{
+
+    position: absolute;
+    left: 200px;;
+}
+p{
+    position: absolute;
+    top: 300px; 
+    font-size: 3em;
+    left: 100px;
+}
+header{
+    font-size: 3em;
+    position: absolute;
+    top: 600px;
+    left: 800px;
+    font-family: fantasy;
+}

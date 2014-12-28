@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+      <title>Bobby McDonald - Business Card</title>
+  
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+  <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
+
+<script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(43.078518, -87.881862),
+  zoom:17,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+	
+</script>
+
+<style type="text/css">
+
+.tab { margin-left: 40px; }
+
+</style>
+  
+  
+</head>
+<body>
+
+ <!--Code for Home Page-->
+<div data-role="page" id="home">
+ 
+  <div data-role="header">
+    <h1>Bobby McDonald</h1>
+  </div>
+ <!--Code for Links on home page-->
+  <div data-role="content">
+    <p><a href="#job">Job Information</a></p>   
+  </div>
+<div data-role="content">
+    <p><a href="#contact">Contact Information</a></p>   
+  </div>
+  <div data-role="content">
+    <p><a href="#map">Locator</a></p>   
+  </div>
+  <br></br>
+  
+  
+<div data-role="content">  
+  <h2 align="center">Skydiving this summer in Massachusetts!</h2>
+ <p align="center">
+ <img src="skydiving.JPG" alt="Skydiving" style="width:304px;height:228px" border="5";>
+ </p>
+ </div>
+  <div data-role="footer">
+    <h1>Intro to Mobile Apps</h1>
+  </div>
+ </div>
+ <!------------------------------------------------------------------>
+<div data-role="page" id="job">
+ 
+  <div data-role="header">
+    <h1>Liberty Mutual Insurance</h1>
+	<h2>Technical Development Program</h2>
+	<h3>IT Analyst</h3>
+	</br>
+</div>
+<div data-role="content">
+
+<p class="tab">
+In our Technical Development Program, you will accelerate your career through hands-on experience applying technology to solve complex business requirements.
+In this rotational program, you will work with a team of professionals from peers to senior managers on high profile assignments and participate in complementary training.
+</p>
+<h3 align="center">Rotations</h3>
+<p class="tab">
+<h4>PHASE I</h4>
+Business Rotation
+The Business Rotation portion of TDP provides participants experience using and analyzing IT products and services from an end-user perspective. Participants also learn about Liberty Mutual's core business functions.
+</p>
+
+<p class="tab"> 
+<h4>PHASE II</h4>
+Project & Technical Training
+The Project and Technical Training portion of the program focuses on the fundamentals of application development and project management. TDP participants will work in teams to develop and deliver a software application that supports Liberty Mutual's business objectives.
+</p>
+ 
+<p class="tab"> 
+<h4>PHASE III</h4>
+IT Rotations
+The third phase of the program builds business, information technology and project management skills through rotations in the IT organization. These assignments will provide TDP employees with knowledge of how the IT organization supports the Liberty Mutual business units.
+</p>
+
+
+<p align="center">
+<img src="LibertyMutual.jpg" alt="Liberty" style="width:304px;height:228px" border="5";>
+</p>
+</div>
+ 
+  <div data-role="content">
+    <p><a href="#home">Go home</a></p>   
+  </div>
+ <div data-role="footer">
+    <h1>Intro to Mobile Apps</h1>
+  </div>
+</div>
+<!-------------------------------------------->
+<div data-role="page" id="contact">
+ 
+  <div data-role="header">
+    <h1>Contact Information</h1>
+	</br>
+</div>
+<div data-role="content"><p>
+<p>
+Email:
+<a href="mailto:mcdona87@uwm.edu" target="_top">
+mcdona87@uwm.edu</a>
+</p></br>
+Phone Number: 920-123-4567<br></br>
+Connect: <a href="http://www.linkedin.com/in/robertmcdonald27/">LinkedIn</a></br>
+</p>
+</div>
+
+
+ 
+  <div data-role="content">
+    <p><a href="#home">Go home</a></p>   
+  </div>
+  <div data-role="footer">
+    <h1>Intro to Mobile Apps</h1>
+  </div>
+ 
+</div>
+
+<div data-role="page" id="map">
+ 
+  <div data-role="header">
+    <h1>Google Maps - UWM</h1>
+	<br></br>
+<div id="googleMap" style="width:500px;height:380px;"></div>
+
+ 
+  <div data-role="content">
+    <p><a href="#home">Go home</a></p>   
+  </div>
+ <div data-role="footer">
+    <h1>Intro to Mobile Apps</h1>
+  </div>
+</div>
+</div>
+ 
+</body>

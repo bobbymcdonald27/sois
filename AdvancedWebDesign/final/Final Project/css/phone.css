@@ -1,0 +1,201 @@
+html,
+body {
+    height: 100%;
+    margin: 0px !important;
+}
+#header {
+    display: none;
+}
+nav {
+    width: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.11, #454545), color-stop(1, #F5F5F5));
+    background-image: -o-linear-gradient(bottom, #454545 11%, #F5F5F5 100%);
+    background-image: -moz-linear-gradient(bottom, #454545 11%, #F5F5F5 100%);
+    background-image: -webkit-linear-gradient(bottom, #454545 11%, #F5F5F5 100%);
+    background-image: -ms-linear-gradient(bottom, #454545 11%, #F5F5F5 100%);
+    background-image: linear-gradient(to bottom, #454545 11%, #F5F5F5 100%);
+    color: #fff;
+    height: 75px;
+    position: relative;
+    font-size: 1em;
+}
+#nav-content {
+    position: absolute;
+    top: 35;
+    bottom: 35;
+    height: 50px;
+    width: auto;
+    margin: auto;
+    left: 5;
+    right: 5;
+}
+#nav-content > a {
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    line-height: 25px;
+    vertical-align: middle;
+    position: relative;
+}
+/* unvisited link */
+
+a:link {
+    color: black;
+}
+/* visited link */
+
+a:visited {
+    color: black;
+}
+/* mouse over link */
+
+a:hover {
+    font-family: cursive;
+}
+/* selected link */
+
+a:active {
+    color: white;
+}
+a.home {
+    font-style: normal;
+    color: black;
+    text-shadow: 1px 1px 1px whitesmoke -webkit-box-shadow: 13px 15px 5px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 15px 5px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 13px 15px 5px -6px rgba(0, 0, 0, 0.75);
+}
+a.contact {
+    font-style: normal;
+    color: black;
+    text-shadow: 1px 1px 1px whitesmoke;
+    -webkit-box-shadow: 13px 15px 5px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 15px 5px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 13px 15px 5px -6px rgba(0, 0, 0, 0.75);
+}
+a.hobbies {
+    font-style: normal;
+    color: black;
+    text-shadow: 1px 1px 1px whitesmoke;
+    -webkit-box-shadow: 13px 15px 5px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 15px 5px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 13px 15px 5px -6px rgba(0, 0, 0, 0.75);
+}
+a.feedback {
+    font-style: normal;
+    color: black;
+    text-shadow: 1px 1px 1px whitesmoke;
+    -webkit-box-shadow: 13px 15px 5px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 15px 5px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 13px 15px 5px -6px rgba(0, 0, 0, 0.75);
+}
+#content {
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    display: block;
+    position: relative;
+}
+#box1 {
+    width: 100%;
+    height: auto;
+    /* IE10 Consumer Preview */
+    background-image: -ms-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #000000 100%);
+    /* Mozilla Firefox */
+    background-image: -moz-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #000000 100%);
+    /* Opera */
+    background-image: -o-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #000000 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #FFFFFF), color-stop(1, #000000));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #000000 100%);
+    /* W3C Markup, IE10 Release Preview */
+    background-image: radial-gradient(circle farthest-corner at center, #FFFFFF 0%, #000000 100%);
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    text-align: center;
+    color: white;
+    word-break: break-all;
+    position: fix;
+    padding-top: 5px;
+}
+img {
+    height: auto;
+    width: 50%;
+    position: relative;
+    box-shadow: 3px 3px 3px black;
+    padding-bottom: 15px;
+}
+img.iphone {
+    height: auto;
+    width: 45%;
+    position: relative;
+    box-shadow: 3px 3px 3px black;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    top:
+}
+#box2 {
+    width: 100%;
+    height: auto;
+    /* IE10 Consumer Preview */
+    background-image: -ms-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #000000 100%);
+    /* Mozilla Firefox */
+    background-image: -moz-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #000000 100%);
+    /* Opera */
+    background-image: -o-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #000000 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #FFFFFF), color-stop(1, #000000));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #000000 100%);
+    /* W3C Markup, IE10 Release Preview */
+    background-image: radial-gradient(circle farthest-corner at center, #FFFFFF 0%, #000000 100%);
+    border-bottom: 5px solid black;
+    text-align: center;
+    color: white;
+    word-break: break-all;
+    position: relative;
+    padding-top: 5px;
+}
+#box3 {
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    /* IE10 Consumer Preview */
+    background-image: -ms-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #000000 100%);
+    /* Mozilla Firefox */
+    background-image: -moz-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #000000 100%);
+    /* Opera */
+    background-image: -o-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #000000 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #FFFFFF), color-stop(1, #000000));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #000000 100%);
+    /* W3C Markup, IE10 Release Preview */
+    background-image: radial-gradient(circle farthest-corner at center, #FFFFFF 0%, #000000 100%);
+    border-bottom: 5px solid black;
+    position: relative;
+    padding-top: 5px;
+}
+footer {
+    background: whitesmoke;
+    height: auto;
+    display: none;
+}
+p {
+    width: 90%;
+    text-align: center;
+    padding-left: 10px
+}
+#feedback {
+    margin: 15px;
+    top: 100px;
+    background: #ccc;
+    border: 1px solid black;
+}
+#map {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    padding: 10px;
+}

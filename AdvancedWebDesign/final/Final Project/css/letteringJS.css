@@ -1,0 +1,93 @@
+/*styling for lettering js piece, some tags may overlap*/
+    
+body, html {
+    margin: 25;
+          -webkit-font-smoothing: antialiased;
+          font-weight: 100;
+          background: #444040;
+          text-align: center;
+      }
+      h1 {
+        margin-top: 25px;
+      }
+      h1 [class*="word"]{
+        margin-right: 10px;
+      }
+      h1 [class*="word"]:last-child;{
+        margin-right: 0;
+      }
+      .demo2 [class*="char"]{
+        margin-right: 5px;
+        line-height: 100%;
+        font-family: helvetica;
+        color: black;
+        font-weight: bold;
+        border-radius: 50px;
+        text-align: center;
+        display: inline-block;
+        padding: 10px 15px;
+        text-transform: uppercase;
+      }
+      .demo2 [class*="char"]:nth-child(3n+1) {
+        background: #5BFFFF;
+      }
+      .demo2 [class*="char"]:nth-child(3n+2) {
+        background: #EA8CDF;
+      }
+      .demo2 [class*="char"]:nth-child(3n+3) {
+        background: #E57070;
+      }
+      .demo2:hover [class*="char"]:nth-child(3n+1){
+        -webkit-animation: color-1 1s infinite;
+        -moz-animation: color-1 1s infinite;
+        -o-animation: color-1 1s infinite;
+        animation: color-1 1s infinite;
+      }
+      .demo2:hover [class*="char"]:nth-child(3n+2){
+        -webkit-animation: color-2 1s infinite;
+        -moz-animation: color-2 1s infinite;
+        -o-animation: color-2 1s infinite;
+        animation: color-2 1s infinite;
+      }
+      .demo2:hover [class*="char"]:nth-child(3n+3){
+        -webkit-animation: color-3 1s infinite;
+        -moz-animation: color-3 1s infinite;
+        -o-animation: color-3 1s infinite;
+        animation: color-3 1s infinite;
+      }
+      @-webkit-keyframes color-1 {
+        0% { background: #5BFFFF; }
+        33% { background: #EA8CDF; }
+        66% { background: #E57070; }
+        100% { background: #5BFFFF;}
+      }
+      @-moz-keyframes color-1 {
+        0% { background: #5BFFFF; }
+        33% { background: #EA8CDF; }
+        66% { background: #E57070; }
+        100% { background: #5BFFFF;}
+      }
+      @-webkit-keyframes color-2 {
+        0% { background: #EA8CDF; }
+        33% { background: #E57070; }
+        66% { background: #5BFFFF;}
+        100% { background: #EA8CDF;}
+      }
+      @-moz-keyframes color-2 {
+        0% { background: #EA8CDF; }
+        33% { background: #E57070; }
+        66% { background: #5BFFFF;}
+        100% { background: #EA8CDF;}
+      }
+      @-webkit-keyframes color-3 {
+        0% { background: #E57070; }
+        33% { background: #5BFFFF; }
+        66% { background: #EA8CDF;}
+        100% { background: #E57070;}
+      }
+      @-moz-keyframes color-3 {
+        0% { background: #E57070; }
+        33% { background: #5BFFFF; }
+        66% { background: #EA8CDF;}
+        100% { background: #E57070;}
+      }

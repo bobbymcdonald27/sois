@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Layout Medium Screens */
+header{
+height:308px;
+background:url(mainmed.jpg) no-repeat 90% 0px;
+}
+nav{
+top:308px;
+}
+nav.a{
+margin-right:20px;
+}
+body{
+background-image:none;
+}
+nav a{
+margin:12px 4.5% 10px 4.5%;
+}
+article{
+padding:60px 20px 10px 20px;
+}
+
+
+
+
+

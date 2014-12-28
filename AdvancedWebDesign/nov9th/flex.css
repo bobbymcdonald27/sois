@@ -1,0 +1,117 @@
+/* Styling for header */
+#title{
+	font-size:3em;
+	color:#000;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-shadow:2px 2.5px 1px #333333;
+	max-width: 80%;
+	background: #ccc;
+	
+}
+nav ul {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	max-width: 80%;
+}
+nav li {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-pack: center;
+	align-items: center;
+	list-style:none;
+	margin:1em;
+	width: 80%;
+
+}
+
+/* begin hyperlink styling for 4 different states */
+
+/* unvisited link */
+a:link {
+    color: red;
+	font-weight: bold;
+}
+
+/* after you visit a link */
+a:visited {
+    color: orange;
+	font-weight: bold;
+}
+
+/* hovering over link */
+a:hover {
+    color: #FF00FF;
+	font-weight: bold;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+	font-weight: bold;
+}
+
+/*Styling for main section with 3 columns */
+#main{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction:row;
+	-ms-flex-direction:row;
+	flex-direction:row;
+	width:80%;
+	align-content: center;
+	max-width: 100%;
+    height: auto;
+		justify-content: center;
+}
+.column1 {
+	-webkit-flex: 1;
+	-ms-flex:1;
+	flex:1;
+	border:3px solid #5D5D5D;
+	padding:10px;
+	background: #F2EAEA;
+}
+.column2 {
+	-webkit-flex: 1;
+	-ms-flex:1;
+	flex:1;
+	border:3px solid #5D5D5D;
+	padding:10px;
+	background: #F2EAEA;
+}
+.column3 {
+	-webkit-flex: 1;
+	-ms-flex:1;
+	flex:1;
+	padding:10px;
+	border:3px solid #5D5D5D;
+	background: #F2EAEA;
+	
+}
+img {
+    max-width: 100%;
+    /*height: auto;*/
+    width: auto\9; /* ie8 */
+	border: 1px solid black;
+}
+h2{
+	text-align:center;
+	text-decoration:underline;
+	font-family: cooper-black-std, sans-serif;  /* Adobe Edge fonts for h2 headers */
+	background: blue;
+	color: white;
+}
+footer{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: #A6CEDB;
+	width:80%;
+	font-weight: bold;
+}

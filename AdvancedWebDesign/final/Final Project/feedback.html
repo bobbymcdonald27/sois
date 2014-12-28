@@ -1,0 +1,78 @@
+<!---Feedback Page for Final Project - Advanced Web Design --->
+<!--Bobby McDonald, mcdona87@uwm.edu--->
+
+<!doctype>
+<html>
+
+<head>
+
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, user-scalable=yes, width=device-width" />
+    <title>Feedback for~Bobby</title>
+    <link rel="stylesheet" type="text/css" href="css/desktop.css">
+    <!-- styles to be applied for tablet view -->
+    <link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width:401px) and (max-width:700px)" />
+    <!-- styles be to applied for phone view -->
+    <link rel="stylesheet" href="css/phone.css" media="only screen and (min-width:0px) and (max-width:400px)" />
+
+</head>
+
+<body>
+
+    <div id="header">
+        Feedback
+    </div>
+
+    <nav>
+        <div id="nav-content">
+            <a href="home.html">Home</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="feedback.html" class="feedback">Feedback</a>
+        </div>
+    </nav>
+
+    <div id="content">
+        <div id="feedback">
+            <p>Email me some feedback, please!
+            </p>
+
+            <!--Form includes 3 examples of HTML5 form input types: text, textarea, button
+
+Each element wrapped in the label tag
+-->
+            <form action="mailto:bobbymcdonald27@gmail.com" enctype="text/plain" method="post">
+
+                <p>
+                    <label for="Name">Name:</label>
+                    <input name="Name" type="text" id="Name" size="40">
+
+                </p>
+
+                <p>
+                    <label for="E-mail">E-mail address:</label>
+                    <input name="E-mail" type="text" id="E-mail" size="40">
+                </p>
+
+                <p>
+                    <label for="feedback">Feedback:</label>
+                </p>
+                <p>
+                    <textarea name="Feedback" cols="50" rows="3" id="feedback"></textarea>
+                </p>
+                <p>
+                    <input type="submit" name="Submit" value="Submit">
+                </p>
+            </form>
+        </div>
+
+
+
+    </div>
+
+    <footer>
+        Robert Alexander McDonald
+    </footer>
+
+</body>
+
+</html>

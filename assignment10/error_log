@@ -1,0 +1,6 @@
+[13-Apr-2014 14:19:04 America/Chicago] PHP Warning:  move_uploaded_file(./uploads/hi.docx): failed to open stream: No such file or directory in /home/mcdona87/public_html/assignment10/upload.php on line 7
+[13-Apr-2014 14:19:04 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpZBfyKZ' to './uploads/hi.docx' in /home/mcdona87/public_html/assignment10/upload.php on line 7
+[13-Apr-2014 14:27:12 America/Chicago] PHP Warning:  move_uploaded_file(./uploads/hi.docx): failed to open stream: No such file or directory in /home/mcdona87/public_html/assignment10/upload.php on line 7
+[13-Apr-2014 14:27:12 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpyvnJmd' to './uploads/hi.docx' in /home/mcdona87/public_html/assignment10/upload.php on line 7
+[13-Apr-2014 14:35:14 America/Chicago] PHP Warning:  move_uploaded_file(./upload/hi.docx): failed to open stream: No such file or directory in /home/mcdona87/public_html/assignment10/upload.php on line 7
+[13-Apr-2014 14:35:14 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phphIE3CJ' to './upload/hi.docx' in /home/mcdona87/public_html/assignment10/upload.php on line 7

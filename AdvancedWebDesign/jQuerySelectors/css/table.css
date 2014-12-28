@@ -1,0 +1,42 @@
+/*css styling for table and heading*/
+h1{
+    font-family: lancelot, serif;
+    text-align: center;
+    color: #EA8CDF;
+    text-shadow: -1px 0 #444040, 0 1px #444040, 1px 0 #444040, 0 -1px #444040;
+}
+    
+table{
+    width:90%;
+    border-color: white;
+}
+    
+.oddColor{
+    background:#E57070;
+    padding-left:.25em;
+}
+    
+.evenColor{
+    background: #EA8CDF;
+    padding-left:.25em;
+}
+    
+.highlight{
+    background:#5BFFFF;
+    cursor:pointer;
+}
+    
+th{
+    background: #ccc;
+    font-family: volkhov, serif;
+}
+    
+td{
+    padding-left: .25em;
+    font-family: muli, sans-serif;
+}
+
+p{
+    color: white;
+    padding-top: 50px;
+}

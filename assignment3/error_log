@@ -1,0 +1,49 @@
+[08-Feb-2014 16:20:26 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/mcdona87/public_html/assignment3/escape.php on line 9
+[08-Feb-2014 16:20:55 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/mcdona87/public_html/assignment3/escape.php on line 9
+[08-Feb-2014 16:22:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/mcdona87/public_html/assignment3/escape.php on line 9
+[08-Feb-2014 16:23:57 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:25:20 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:25:21 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:25:21 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:25:21 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:25:24 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:27:17 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:27:25 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:28:46 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:29:50 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:30:45 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:30:58 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:31:00 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:31:38 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/mcdona87/public_html/assignment3/escape.php on line 8
+[08-Feb-2014 16:33:34 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/escape.php on line 9
+[08-Feb-2014 16:33:59 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/escape.php on line 9
+[08-Feb-2014 16:34:00 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/escape.php on line 9
+[08-Feb-2014 16:34:00 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/escape.php on line 9
+[08-Feb-2014 16:34:00 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/escape.php on line 9
+[08-Feb-2014 16:34:17 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/escape.php on line 9
+[08-Feb-2014 16:34:35 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/escape.php on line 9
+[08-Feb-2014 17:04:24 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/quotes.php on line 12
+[08-Feb-2014 17:04:45 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/quotes.php on line 12
+[08-Feb-2014 18:03:32 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/predefined.php on line 13
+[08-Feb-2014 18:04:02 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/predefined.php on line 13
+[09-Feb-2014 11:17:25 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/math.php on line 17
+[09-Feb-2014 12:03:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'Addition' (T_STRING), expecting ',' or ';' in /home/mcdona87/public_html/assignment3/math.php on line 23
+[09-Feb-2014 12:04:55 America/Chicago] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR), expecting ',' or ';' in /home/mcdona87/public_html/assignment3/math.php on line 19
+[09-Feb-2014 12:22:59 America/Chicago] PHP Parse error:  syntax error, unexpected '"A variable can be changed and' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/mcdona87/public_html/assignment3/constant.php on line 15
+[09-Feb-2014 12:23:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/mcdona87/public_html/assignment3/constant.php on line 15
+[09-Feb-2014 12:23:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'define' (T_STRING), expecting ',' or ';' in /home/mcdona87/public_html/assignment3/constant.php on line 17
+[09-Feb-2014 13:04:37 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/functions.php on line 27
+[09-Feb-2014 13:22:10 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/functions.php on line 31
+[09-Feb-2014 13:22:58 America/Chicago] PHP Fatal error:  Call to undefined function shmop_size() in /home/mcdona87/public_html/assignment3/functions.php on line 32
+[09-Feb-2014 13:24:08 America/Chicago] PHP Fatal error:  Call to undefined function shmop_size() in /home/mcdona87/public_html/assignment3/functions.php on line 32
+[09-Feb-2014 13:30:51 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/mcdona87/public_html/assignment3/functions.php on line 38
+[09-Feb-2014 14:06:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mcdona87/public_html/assignment3/conditions.php on line 17
+[09-Feb-2014 14:45:02 America/Chicago] PHP Parse error:  syntax error, unexpected '$answer' (T_VARIABLE), expecting ',' or ';' in /home/mcdona87/public_html/assignment3/conditions.php on line 19
+[09-Feb-2014 14:47:22 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/mcdona87/public_html/assignment3/conditions.php on line 23
+[09-Feb-2014 14:47:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mcdona87/public_html/assignment3/conditions.php on line 24
+[09-Feb-2014 14:51:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mcdona87/public_html/assignment3/conditions.php on line 24
+[09-Feb-2014 14:52:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mcdona87/public_html/assignment3/conditions.php on line 24
+[09-Feb-2014 14:52:22 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/mcdona87/public_html/assignment3/conditions.php on line 23
+[09-Feb-2014 14:59:32 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/mcdona87/public_html/assignment3/conditions.php on line 26
+[09-Feb-2014 15:00:21 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/mcdona87/public_html/assignment3/conditions.php on line 26
+[09-Feb-2014 15:06:07 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment3/conditions.php on line 13

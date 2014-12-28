@@ -1,0 +1,28 @@
+body{
+	color: white;
+	background-color: black;
+}
+input{
+	margin:5px 2px 5px 3px;
+	padding:2px;
+	
+}
+input:focus{
+	border:5px solid green;
+	background-color:#E79CED;
+}
+#order-form{
+	border:3px solid green;
+	padding:.25em;
+	background: rgb(137, 22, 153);
+}
+h1{
+	color: green;
+	font-size: 200%;
+	font-weight: bold;
+}
+p{
+	color:black;
+    font-size: 200%;
+	font-weight: bold;
+}

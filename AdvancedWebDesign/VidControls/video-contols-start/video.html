@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Custom Video Controls</title>
+<script src="jquery-1.9.1.min.js"></script>
+  <script src="player.js"></script>
+  <link href="player.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>Jabari Parker</h1>
+<video width="1000" id="vid">
+<source src="jabari.mp4" type="video/mp4">
+<source src="jabari.ogg">
+<source src="jabari.webm">
+Your browser does not support the video tag
+</video>
+ <div id="video_controls">
+    <div id="play_toggle" class="player-button">Play</div>
+    <div id="progress">
+      <div id="load_progress"></div>
+      <div id="play_progress"></div>
+    </div>
+    <div id="time">
+    <!--give current time of 0 for each, not started -->
+      <span id="current_time">00:00</span> / <!-- / separates the 2 number time values -->
+      <span id="duration">00:00</span>
+    </div>
+  </div>
+<h2>~Jabari dunks at Bucks Fan Fest</h2>
+</body>
+</html>

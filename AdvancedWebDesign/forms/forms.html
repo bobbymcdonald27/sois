@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bucks T-Shirt Form</title>
+<link rel="stylesheet" href="styling.css"> <!--New way to include external css-->
+</head>
+<body>
+<header>
+<h1 align="center">Bucks Opening Day Shirt Order Form</h1>
+
+</header>
+<section>
+	<form id="order-form" autocomplete="on">
+	<p>Contact Information</p>
+    	<label for="fname">First Name: <input type="text" id="fname" size="30" placeholder="First Name" autofocus required /></label>
+		<label for="lname">Last Name: <input type="text" id="lname" size="30" placeholder="Last Name" autofocus required/></label> <br/>
+        <label for="email">Email: <input type="email" id="email" size="30" placeholder="Email" autofocus required /></label>
+        <label for="tel">Phone Number: <input type="tel" id="tel" size="30" placeholder="Phone Number" autofocus required /></label> <br/>
+		<label for="url">URL: <input type="url" id="url" size="30" placeholder="URL" autofocus required /></label> <!--Including this, but it doesn't fit the context of the form, just meeting requirements-->
+        
+	<p>T-Shit Information</p>
+		<label for="Size">Select Size:
+        	<input type="text" list="Size" id="Size">
+            	<datalist id="Size">
+                	<option value="Small">
+                    <option value="Medium">
+                    <option value="Large">
+					<option value="X-Large">
+					<option value="Special Order">
+                 </datalist>
+				 </label>
+				 </br>
+<label for="color">Choose Color: <input type="color" id="color" /> </label> </br>
+<label for="quantity">Shirt Quantity: <input type="number" size="50" min="1" max="15" id="quantity"  autofocus required /></label> <br/>
+<label for="delivery">Choose Delivery Date: <input type="date" id="delivery" /> </label></br>
+<label for="experience">Ordering Experience: </br><input type="range" min="1" max="5" id="experience" /> </label>
+		
+        </br>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
+
+

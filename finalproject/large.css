@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* Layout (global rules for all sizes) */
+body{
+margin:0px;
+padding:opx;
+}
+nav{
+width:100%;
+display:block;
+position:absolute;
+background:#484848;
+/*#A6430A;*/
+}
+
+
+/* Layout Large Screens (default for older browsers) */
+header{
+height:370px;
+background:url(mainlrg.jpg) no-repeat right 0px;
+}
+header a.logo{
+width:150px;
+height:85px;
+top:28px;
+right:30px;
+background-image:url(../images/logo_large.png);
+}
+article{
+padding:60px 20px 10px 20px;
+}
+.promo_container{
+padding:0px 0px 15px 20px;
+}
+nav{
+top:370px;
+}
+nav a{
+margin:12px 7.5% 10px 7.5%;
+}
+

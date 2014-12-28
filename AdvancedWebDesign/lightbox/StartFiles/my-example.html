@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Lightbox Assignment</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="js/modernizr.custom.js"></script>
+	<link rel="stylesheet" href="css/screen.css" media="screen"/>
+	<link rel="stylesheet" href="css/lightbox.css" media="screen"/>
+    
+<style>
+
+img.example-image{ /* thumbnail image border and padding */
+	border: 3px dashed #FFD700; 
+	padding: 5px;
+	 }
+/* little bit of custom css for the page */
+body{
+	background: #8089F2;
+	}
+h1.logo{
+	color: #FFD700;
+	}
+p.lead{
+	text-decoration:underline;
+	color: #ccc;
+	}
+
+</style>   
+</head>
+<body>
+<div class="wrapper">
+	<section id="intro" class="section intro-section">
+		<header>
+			<h1 class="logo">Austria, Czech Republic, & Germany</h1>
+		</header>
+		<p class="lead">
+			This image gallery uses Lightbox, a small javascript library used to overlay images on top of the current page. It's a <em>snap to setup</em> and works on <em>all modern browsers</em>.  Enjoy the pics!
+		</p>
+	</section>
+
+	<section id="examples" class="section examples-section">
+		<div class="image-row">
+			<div class="image-set">
+				<a class="example-image-link" href="img/europe/Image1.jpg" data-lightbox="example-set" ><img class="example-image" src="img/europe/Image1-thumb.jpg" alt="image 1 0f 6 thumb" width="200" height="150"/></a>
+				<a class="example-image-link" href="img/europe/Image2.jpg" data-lightbox="example-set" ><img class="example-image" src="img/europe/Image2-thumb.jpg" alt="image 2 0f 6 thumb" width="200" height="150"/></a>
+				<a class="example-image-link" href="img/europe/Image3.jpg" data-lightbox="example-set" ><img class="example-image" src="img/europe/Image3-thumb.jpg" alt="image 3 0f 6 thumb" width="200" height="150"/></a>
+				<a class="example-image-link" href="img/europe/Image4.jpg" data-lightbox="example-set" ><img class="example-image" src="img/europe/Image4-thumb.jpg" alt="image 4 0f 6 thumb" width="200" height="150"/></a>
+                <a class="example-image-link" href="img/europe/Image5.jpg" data-lightbox="example-set" ><img class="example-image" src="img/europe/Image5-thumb.jpg" alt="image 5 0f 6 thumb" width="200" height="150"/></a>
+                <a class="example-image-link" href="img/europe/Image6.jpg" data-lightbox="example-set" ><img class="example-image" src="img/europe/Image6-thumb.jpg" alt="image 6 0f 6 thumb" width="200" height="150"/></a>
+			</div>
+		</div>
+	</section>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/lightbox-2.6.min.js"></script>
+</body>
+</html>

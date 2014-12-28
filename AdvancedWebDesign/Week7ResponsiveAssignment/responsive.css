@@ -1,0 +1,120 @@
+* { /* star applies things to every element, sort of like the wild card, eliminating margins and padding and 
+set a default font */
+	margin:0;
+	padding:0;
+	font-family:Helvetica, sans-serif;
+	-webkit-text-size-adjust:none; /* for iPhone (don't want text to change size when screen adjusted to landscape */
+}
+#wrapper{
+	width: auto;
+	max-width: 1250px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #000;
+}
+header{
+	text-align: center;
+	height: 67px;
+}
+header img{
+	background-image: url('Images/header.png');
+	width: 100%;
+}
+#feature{
+	margin: 25px auto 25px auto;
+	text-align: center;
+	width: 320px;
+	
+}
+#feature h2{
+	padding-left: 18px;
+	margin-bottom: 10px;
+}
+#news h3{
+	background: #076016;
+	text-align: center;
+	padding: 15px 0 15px 0;
+	color: #fff;
+}
+#news .story{
+	padding: 20px 10px;
+	border-bottom: 2px solid red;
+	background: #E0E0E0;
+}
+#news h4{
+	margin-bottom: 10px;
+	color: #076016;
+}
+#news .story img{
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #000;
+}
+.clear{
+	clear: both;
+}
+a: link{
+	text-decoration: none;
+	font-weight: bold;
+	color: #990000;
+}
+a: active{
+	text-decoration: none;
+	font-weight: bold;
+	color: #990000;
+}
+a: hover{
+	text-decoration: underline;
+	font-weight: bold;
+	color: #000;
+}
+a: visitied{
+	text-decoration: underline;
+	font-weight: bold;
+	color: #999;
+}
+/* for medium/tablet sized devices */
+@media screen and (max-width: 800px){
+	#wrapper{
+		width: auto;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: none;
+	}
+	#feature{
+		marigin: 5px auto 5px 10px;
+		text-align: left;
+		width: auto;
+	}
+	#feature img{
+	align: center;
+	padding-left: 1em;
+	}
+	
+	
+}
+/* for small/phone sized devices */
+@media screen and (max-width: 399px){
+	#news .story img{
+		display: none;
+	
+	}
+	#wrapper{
+		border: none;
+	}
+	#news. story{
+		padding: .5em 25em;
+	}
+	#news .story h4{
+		margin-bottom: .25em;
+	}
+	#news h3{
+		padding: 5px 0 5px 0;
+	}
+	#feature img{
+	display: none;
+	}
+}
+	

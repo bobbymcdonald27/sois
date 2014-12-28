@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bobby's Summer Slideshow</title>
+<link rel="stylesheet" href="style.css" />
+
+<script src="//use.edgefonts.net/kaushan-script.js"></script> 
+
+<script type="text/javascript">
+function showPic(whichpic){
+	var source = whichpic.getAttribute('href'); //setting source = to href
+	var placeholder = document.getElementById('placeholder');
+	placeholder.setAttribute('src', source); //sets source = to href attribute
+	var text = whichpic.getAttribute('title');
+	var description = document.getElementById('description');
+	description.firstChild.nodeValue= text; /*title tag is passed through description id */
+}
+</script>
+</head>
+
+<body>
+<h1>Summer Adventures on the East Coast</h1>
+<p id="description">Click the links below for some awesome images from my Summer</p>
+
+<nav>
+<div id="links">
+
+<a href="images/sign.jpg" title="Liberty Mutual Insurance - Dover, NH Office" onclick="showPic(this); return false;">Liberty Mutual</a> | 
+<a href="images/washington.jpg" title="Mount Washington-White Mountains-New Hampshire" onclick="showPic(this); return false;">Mount Washington Summit</a> | 
+<a href="images/skydive.jpg" title="Skydiving in Mass." onclick="showPic(this); return false;">Skydiving</a> | 
+<a href="images/fenway.jpg" title="Fenway Park" onclick="showPic(this); return false;">Fenway Park Company Event</a> | 
+<a href="images/beach.jpg" title="New Hampshire Beach" onclick="showPic(this); return false;">Perfect Beach Day</a> | 
+<a href="images/boston.jpg" title="Senior Forum - Boston MA" onclick="showPic(this); return false;">View from Boston Hotel</a>
+
+
+</div>
+    </nav>
+<img id="placeholder" src="" alt="Placeholder" />
+</body>
+</html>

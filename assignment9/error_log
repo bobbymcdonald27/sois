@@ -1,0 +1,26 @@
+[30-Mar-2014 15:53:52 America/Chicago] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/mcdona87/public_html/assignment8/index.php on line 7
+[30-Mar-2014 15:53:52 America/Chicago] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mcdona87/public_html/assignment8/index.php on line 7
+[30-Mar-2014 15:56:30 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment8/footer.php on line 2
+[30-Mar-2014 16:48:35 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment8/leave.php on line 16
+[30-Mar-2014 17:23:45 America/Chicago] PHP Fatal error:  Call to undefined function inlcude() in /home/mcdona87/public_html/assignment8/index.php on line 8
+[30-Mar-2014 17:24:12 America/Chicago] PHP Parse error:  syntax error, unexpected '" <br />"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/mcdona87/public_html/assignment8/view.php on line 15
+[30-Mar-2014 17:24:40 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/mcdona87/public_html/assignment8/view.php on line 15
+[30-Mar-2014 17:26:10 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/mcdona87/public_html/assignment8/view.php on line 14
+[30-Mar-2014 17:26:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/mcdona87/public_html/assignment8/view.php on line 14
+[30-Mar-2014 17:26:56 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment8/view.php on line 11
+[30-Mar-2014 17:27:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/mcdona87/public_html/assignment8/view.php on line 14
+[30-Mar-2014 18:27:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'center' (T_STRING), expecting ',' or ';' in /home/mcdona87/public_html/assignment8/index.php on line 18
+[06-Apr-2014 15:49:43 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/mcdona87/public_html/assignment8/index.php on line 67
+[06-Apr-2014 15:54:27 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/mcdona87/public_html/assignment8/index.php on line 68
+[06-Apr-2014 15:54:29 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/mcdona87/public_html/assignment8/index.php on line 68
+[06-Apr-2014 16:06:46 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/mcdona87/public_html/assignment8/index.php on line 83
+[06-Apr-2014 16:11:34 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/mcdona87/public_html/assignment8/index.php on line 83
+[06-Apr-2014 16:13:33 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/mcdona87/public_html/assignment8/index.php on line 83
+[06-Apr-2014 16:24:51 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/mcdona87/public_html/assignment8/index.php on line 79
+[06-Apr-2014 16:25:33 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/mcdona87/public_html/assignment8/index.php on line 79
+[06-Apr-2014 17:00:13 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/mcdona87/public_html/assignment8/index.php on line 41
+[06-Apr-2014 20:12:14 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment9/index.php on line 30
+[06-Apr-2014 20:13:07 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/mcdona87/public_html/assignment9/index.php on line 30
+[06-Apr-2014 20:56:28 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/mcdona87/public_html/assignment9/getdelete.php on line 14
+[06-Apr-2014 20:56:34 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/mcdona87/public_html/assignment9/getdelete.php on line 14
+[06-Apr-2014 21:27:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'center' (T_STRING), expecting ',' or ';' in /home/mcdona87/public_html/assignment9/index.php on line 33
